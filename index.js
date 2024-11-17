@@ -20,7 +20,7 @@ app.use(express.json());
 
 // Root Route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Salon Service Backend');
+    res.send('Welcome to the Cinema Booking Backend');
 });
 
 // MongoDB URI from environment variables
